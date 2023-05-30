@@ -1,0 +1,11 @@
+function power(x,n){
+    let pow=1
+    for(let i=1; i<=n; i++){
+        pow=pow*x
+    }
+    return pow;
+}
+let x=prompt("enter the number");
+let n=prompt("enter the power");
+let result=power(x,n);
+console.log(result);
